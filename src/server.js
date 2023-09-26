@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 3000);
 
 // Configuración de CORS
 const corsOptions = {
-    origin: 'https://backend-portfolio-lemon.vercel.app/', // Cambia esto por la URL de tu aplicación React en desarrollo
+    origin: '*', // Cambia esto por la URL de tu aplicación React en desarrollo
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Habilita las credenciales si es necesario
   };
